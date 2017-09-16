@@ -1,0 +1,64 @@
+#container{
+    width: 1080px;
+    align-items: center;
+    background: white;
+    border: 3px solid black;
+    margin: 0 auto;
+}
+
+#top-bar{
+    height: 145px; 
+    border: 3px solid black;
+    background-image: url("images/Top-Bar.png");
+    padding-bottom: 30px;
+}
+
+#username{
+    text-align-last: center; 
+    font-size: 75px;
+}
+
+#follower-count{
+    height: 355px;
+    background-image: url("images/Follower-Count.png");
+    
+
+    
+}
+
+#profile-picture{
+    border: 1px solid black;
+    display: inline-block;
+    height: 255px;
+    width: 255px;
+    border-radius: 100%;
+    margin-top:5%; 
+    margin-left:5%;
+}
+
+#photo-bar{
+    height: 140px;
+    background-image: url("images/Photo-Bar.png");
+}
+
+#bottom-bar{
+    height: 135px;
+    background-image: url("images/Bottom-Bar.png");
+}
+
+.ig-image{
+    height: 300px;
+    width: 350px;
+    position: relative;
+    display: inline-block; 
+    margin: 0 auto;
+} 
+
+#pictures {
+    text-align:center;
+}
+
+#bio > p {
+    padding:5% 0% 5% 6%;
+    font-size: 40px;
+}
